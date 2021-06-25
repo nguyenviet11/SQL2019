@@ -42,3 +42,7 @@ INSERT INTO tabl2 values (119, N'Nguyễn Văn D','nguyenvand@gmail.com',369258,
 INSERT INTO tabl2 values (191, N'Nguyễn Văn E','nguyenvane@gmail.com',147285, 123, 'G')
 
 select * from tabl2
+
+update tabl2 set name=N'Nguyễn Văn H' where CusID=123
+
+delete from tabl2 where CusID=119
